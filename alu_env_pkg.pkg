@@ -1,0 +1,19 @@
+package alu_env_pkg;
+
+// UVM class library compiled in a package
+import uvm_pkg::*;
+import "DPI-C" function int unsigned alu_dpi_model(input int unsigned opa,opb,op);
+
+`include "alu_trans.sv"
+`include "sequence.sv"
+`include "sequencer.sv"
+`include "driver.sv"
+`include "iMonitor.sv"
+`include "oMonitor.sv"
+`include "master_agent.sv"
+`include "slave_agent.sv"
+`include "predictor.sv"
+`include "scoreboard.sv"
+`include "environment.sv"
+
+endpackage 
