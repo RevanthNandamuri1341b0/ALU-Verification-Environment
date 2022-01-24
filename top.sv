@@ -10,19 +10,17 @@
 *Modified by : #your name#
 */
 
-
 `include "alu.v"
 `include "if_alu.sv"
 `include "program_alu.sv"
-module top;
 
+module top;
 
 parameter reg [31:0] N=4;
 
 bit clk;
 
 always #10 clk=!clk;
-
 
 alu_if   #(N) alu_if_inst (clk);
 alu      #(N) dut_inst    (.clk(clk),

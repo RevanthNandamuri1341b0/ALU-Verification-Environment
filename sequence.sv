@@ -10,7 +10,6 @@
 *Modified by : #your name#
 */
 
-
 class base_sequence extends uvm_sequence#(alu_trans);
     int unsigned item_count;
       `uvm_object_utils(base_sequence);

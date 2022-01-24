@@ -10,7 +10,6 @@
 *Modified by : #your name#
 */
 
-
 class b_test extends uvm_test;
     `uvm_component_utils(b_test);
     //int item_count=50;

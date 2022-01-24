@@ -10,6 +10,7 @@
 *Modified by : #your name#
 */
 
+
 class environment extends uvm_component;
     `uvm_component_utils(environment);
 
@@ -47,10 +48,6 @@ endfunction:connect_phase
 function void environment::extract_phase(uvm_phase phase);
 uvm_config_db#(bit [31:0])::get(this,"","exp_dropped_count",exp_drop_count);
 endfunction:extract_phase
-
-    
-
-
 
 function void environment::report_phase(uvm_phase phase);
     //super.report_phase(phase);

@@ -10,7 +10,6 @@
 *Modified by : #your name#
 */
 
-
 `define WIDTH  4
 
 class alu_trans extends uvm_sequence_item;

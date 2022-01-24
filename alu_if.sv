@@ -1,4 +1,3 @@
-
 /*
 *Author : Revanth Sai Nandamuri
 *GitHUB : https://github.com/RevanthNandamuri1341b0
@@ -10,7 +9,6 @@
 *File ID : 689125
 *Modified by : #your name#
 */
-
 
 interface alu_if (input clk);
 
@@ -46,4 +44,3 @@ interface alu_if (input clk);
     modport tb_mon_out  (clocking cb_mon_out,input reset);
     
 endinterface
-    
