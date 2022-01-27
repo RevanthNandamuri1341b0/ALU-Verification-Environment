@@ -11,7 +11,7 @@
 */
 
 
-class environment extends uvm_component;
+class environment extends uvm_env;
     `uvm_component_utils(environment);
 
     bit[31:0] exp_drop_count;
